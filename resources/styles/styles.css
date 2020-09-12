@@ -20,9 +20,10 @@ button{
 #score{
   font-size: 25px;
 } */
-#welcome-screen{
+#welcome-screen {
   border: 1px solid black;
 }
-#game-screen{
+
+#game-screen {
   border: 1px solid red;
 }
