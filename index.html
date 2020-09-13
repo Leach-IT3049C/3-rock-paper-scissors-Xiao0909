@@ -13,29 +13,29 @@
 <body>
     <div class="container">
         <h1>Rock Paper Scissors</h1>
-        <div id="welcome-screen">
-            <form id="name-form">
-                <div class="form-group">
-                    <label for="username">Your Name</label>
-                    <input placeholder="Enter Name Here..." id="username" name="username" class="form-control">
+        <div id="welcome-screen" class="col-sm-12">
+            <form id="name-form" >
+                <div class="form-group row">
+                    <label for="username" class="col-sm-3 text-right yourName">Your Name</label>
+                    <input placeholder="Enter Name Here..." id="username" name="username" class="form-control col-sm-7">
                 </div>
-                <button class="btn btn-primary" id="start-game-button">Start Game!</button>
+                <button class="btn btn-primary col-sm-4 text-center" id="start-game-button">Start Game!</button>
             </form>
         </div>
-        <div id="game-screen">
-            <div id="score-tally">
+        <div id="game-screen" class="col-sm-12">
+            <div id="score-tally" class="yourName">
                 <p id="score">User: 0 v CPU: 0</p>
             </div>
             <form id="game-form">
-                <div class="form-group">
-                    <label for="user-selection">Select your choice</label>
-                    <select class="custom-select" id="user-selection" name="user-selection">
+                <div class="form-group row">
+                    <label for="user-selection" class="col-sm-3 text-right">Select your choice</label>
+                    <select class="custom-select col-sm-7" id="user-selection" name="user-selection">
                         <option value="Rock">Rock</option>
                         <option value="Paper">Paper</option>
                         <option value="Scissors">Scissors</option>
                     </select>
                 </div>
-                <button class="btn btn-success" id="go-button">Go!</button>
+                <button class="btn btn-success col-sm-4 text-center" id="go-button">Go!</button>
             </form>
             <p id="game-history"></p>
         </div>
