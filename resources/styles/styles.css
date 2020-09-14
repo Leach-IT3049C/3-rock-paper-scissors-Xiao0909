@@ -1,28 +1,30 @@
-/* h1{
+h1{
   text-align: center;
 }
-#welcome-screen{
-  border-style: dashed;
-  border-color: pink;
-  height: 100px;
-  border: 1px, solid, black;
-}
+
 .container{
   font-family: Comic Sans MS;
 }
-button{
-  background-color: plum;
+
+
+#welcome-screen {
+  border: 1px solid black;
 }
-#game-screen{
-  text-align: center;
-  padding-top: 30px;
+
+#game-screen {
+  border: 1px solid red;
+}
+.row{
+  padding-top: 25px;
+}
+.yourName{
+  padding-top: 6px;
+}
+#go-button, #start-game-button{
+  margin-bottom: 25px;
+  margin-left: 350px;
 }
 #score{
   font-size: 25px;
-} */
-#welcome-screen{
-  border: 1px solid black;
-}
-#game-screen{
-  border: 1px solid red;
+  margin-left: 450px;
 }
